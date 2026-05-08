@@ -1,0 +1,31 @@
+# Environment / local config
+.env
+.env.*
+config/db.php
+config/db.local.php
+config/db.production.php
+
+# Database dumps / backups
+*.sql
+*.zip
+*.rar
+*.7z
+backup/
+backups/
+exports/
+
+# Logs / cache / temp
+*.log
+logs/
+cache/
+tmp/
+temp/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional upload temp files
+uploads/temp/
